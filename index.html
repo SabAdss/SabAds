@@ -12,6 +12,7 @@
     <title>SabAds</title>
 </head>
 <body>
+  <!-- Navbar -->
     <nav class="navbar navbar-expand-lg bg-body-secondary">
             <div class="container-fluid">
               <a class="navbar-brand" href="#">SabAds<svg xmlns="http://www.w3.org/2000/svg" width="20" height="16" fill="currentColor" class="bi bi-emoji-laughing" viewBox="0 0 16 16">
@@ -34,14 +35,14 @@
                       Services
                     </a>
                     <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Social Media Management</a></li>
+                      <li><a class="dropdown-item" href="#">Social Media Marketing</a></li>
                       <li><a class="dropdown-item" href="#">paid Ad Marketing</a></li>
                       <li><a class="dropdown-item" href="#">SEO</a></li>
                       <li><a class="dropdown-item" href="#">Graphic Design</a></li>
                     </ul>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" aria-disabled="false">Contact Us</a>
+                    <a class="nav-link" href="#contact" aria-disabled="false">Contact Us</a>
                   </li>
                 </ul>
                 <form class="d-flex" role="search">
@@ -50,7 +51,11 @@
                 </form>
               </div>
             </div>
-          </nav> 
+          </nav>
+
+
+
+          <!--Carousel slide -->
           <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
             <div class="carousel-indicators">
               <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-label="Slide 1" aria-current="true"></button>
@@ -63,7 +68,7 @@
                 <div class="container">
                   <div class="carousel-caption text-start" style="text-align: center;">
                     <h1>Hello</h1>
-                    <p class="opacity-75">Welcome to SabAds,
+                    <p>Welcome to SabAds,
                       where digital excellence meets marketing innovation.</p>
                     <p><a class="btn btn-lg btn-primary" href="#contact">Contact us!</a></p>
                   </div>
@@ -99,16 +104,44 @@
               <span class="visually-hidden">Next</span>
             </button>
           </div>
-          <!-- <header class="info" style="margin: 10px;">
-            <div class="heading" style="text-align: center;">
-                <h1 style="color: black; font-size: 60px; font-family: 'Poppins', sans-serif; font-weight: bold;">HELLO!</h1>
+
+
+          <!-- Services -->
+
+          <hr class="featurette-divider">
+
+          <div class="row featurette" style="margin-left: 50px; margin-right: 50px; margin-top: 40px; margin-bottom: 40px;">
+            <h1 class="fs-1 mb-6 pb-2" style="text-align: center; color: white; background-color: gray; border-radius: 10px; ">Our Services</h1>
+            <div class="col-md-7">
+              <h2 class="featurette-heading fw-normal lh-1">Our marketing strategy <br><span class="text-body-secondary">It’ll blow your mind.</span></h2>
+              <p class="lead" style="text-align: justify;">The goal is to connect with target audiences, build brand awareness, drive website traffic, and ultimately, generate leads or sales.
+                Digital marketing leverages the internet's reach and interactivity to create effective, measurable, and targeted campaigns,
+                adapting to the dynamic landscape of online consumer behavior.</p>
             </div>
-            <div style="color: white; font-size: 30px; font-family: 'Poppins', sans-serif; margin-top: 20px;">
-                <p style="text-align: center; background-color: darkcyan;">
-                    Welcome to SabAds,
-                    where digital excellence meets marketing innovation.
-                </p>
-            </div> -->
+            <div class="col-md-5">
+              <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" style="border-radius: 10px;" width="500" height="500" src="pexels-mikael-blomkvist-6476258.jpg">
+              <!-- <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-bg)"></rect><text x="50%" y="50%" fill="var(--bs-secondary-color)" dy=".3em"></text></svg> -->
+            </div>
+          </div>
+
+          <hr class="featurette-divider">
+
+
+          <div class="row featurette" style="margin-left: 50px; margin-right: 50px; margin-top: 40px; margin-bottom: 40px;">
+            <div class="col-md-7 order-md-2">
+              <h2 class="featurette-heading fw-normal lh-1">1.Social Media Marketing. <br><span class="text-body-secondary">It makes Big impact on your SALES.</span></h2>
+              <p class="lead">Another featurette? Of course. More placeholder content here to give you an idea of how this layout would work with some actual real-world content in place.</p>
+            </div>
+            <div class="col-md-5 order-md-1">
+              <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" style="border-radius: 10px;" width="500" height="500" src="pexels-mikael-blomkvist-6476805.jpg">
+              <!-- <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-bg)"></rect><text x="50%" y="50%" fill="var(--bs-secondary-color)" dy=".3em">500x500</text></svg> -->
+            </div>
+          </div>
+
+          <hr class="featurette-divider">
+
+
+          <!-- onfo -->
             <div id="infoparah" style="text-align: justify;  margin: 10px; margin-top: 30px; padding: 20px; color: black;">
                 <h2>Who We Are <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-people-fill" viewBox="0 0 16 16">
                   <path d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6m-5.784 6A2.24 2.24 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.3 6.3 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1zM4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5"/>
@@ -122,6 +155,9 @@
             </div>
           </header>
     </div>
+
+
+  
     <!-- contact -->
     <div id="contact" class="container px-4 py-5" id="featured-3" style="background-color: gray; color: white; text-align: center;">
       <h2 class="pb-2 border-bottom" style="font-size: 50px;">Keep In Touch</h2>
